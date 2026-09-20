@@ -38,6 +38,12 @@ Durante la instalación, la terminal te hará un par de preguntas. Te recomendam
 
 ---
 
+### 3.Para actualizaciones:
+```bash
+npm install -D @playwright/test@latest
+npx playwright install --with-deps
+```
+
 ## 🧪 Ejecutar las Pruebas
 
 El instalador incluye unos tests de ejemplo para que verifiques que todo funciona correctamente. Puedes correrlos con los siguientes comandos:
